@@ -1,0 +1,251 @@
+
+
+h1 {
+    font-size: 3rem;
+    font-family: "Spartan";
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+h3{
+    font-family: "Spartan";
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-size: 0.8rem;
+    display: inline-block;
+    position: relative;
+    right: 0%;
+    bottom: 30px;
+    margin-left: 5px;
+}
+
+h4{
+    font-family: "Spartan";
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+h5{
+    display: inline-block;
+    position: relative;
+    right:35%;
+    bottom: 10px;
+    font-family: "Spartan";
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+p {
+    font-family: "Spartan";
+    font-weight: 400;
+    color: hsl(300, 10%, 68%) ;
+    
+}
+
+span{
+    padding-right: 20px;
+}
+
+img{
+    border-radius: 100px;
+    width: 17%;
+}
+
+.top-pattern {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header {
+    margin: 100px 0 0 70px;
+    width: 40%;
+    display: inline-block;
+}
+
+.introdution {
+    line-height: 1.5;
+}
+
+.Rate-1 {
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    padding: 0% 5%;
+    background-color:hsl(304, 32%, 91%);
+    border-radius: 16px;
+    
+}
+
+.Rate-2 {
+    display: inline-block;
+    position: absolute;
+    right: 130px;
+    top: 220px;
+    padding: 0% 5%;
+    background-color:hsl(304, 32%, 91%);
+    border-radius: 16px;
+}
+
+.Rate-3 {
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 290px;
+    padding: 0% 5%;
+    background-color:hsl(304, 32%, 91%);
+    border-radius: 16px;
+}
+
+.review-1{
+    padding: 1%;
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 8%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.review-2{
+    display: inline-block;
+    padding: 1%;
+    width: 300px;
+    position: absolute;
+    top: 550px;
+    right: 38%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.review-3{
+    display: inline-block;
+    padding: 1%;
+    width: 300px;
+    position: absolute;
+    top: 600px;
+    right: 9%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.review{
+    color: #ffffff;
+    font-size: 0.7rem;
+    width: 83%;
+    margin: auto;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.Bottom-pattern{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media(max-width:900px) {
+    body{
+        text-align: center;
+    }
+
+    .top-pattern{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+    }
+
+    .Bottom-pattern{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+    }
+    
+    .header {
+        margin: 130px auto auto auto;
+        width: 40%;
+        display: block;
+        
+    }
+
+    .Rate-1 {
+        display: inline-block;
+        position: static;
+        padding: 0% 5%;
+        margin: 5%;
+        background-color:hsl(304, 32%, 91%);
+        border-radius: 16px;
+    }
+
+    .Rate-2 {
+        display: inline-block;
+        position: static;
+        margin: 5%;
+        padding: 0% 5%;
+        background-color:hsl(304, 32%, 91%);
+        border-radius: 16px;
+    }
+
+    .Rate-3 {
+        display: inline-block;
+        position: static;
+        margin: 5%;
+        padding: 0% 5%;
+        background-color:hsl(304, 32%, 91%);
+        border-radius: 16px;
+    }
+
+    .review-1{
+        margin: auto;
+        padding: 1%;
+        display: block;
+        width: 300px;
+        position: static;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .review-2{
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+        padding: 1%;
+        width: 300px;
+        position: static;
+     
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .review-3{
+        margin: auto;
+        margin-top: 30px;
+        display: block;
+        padding: 1%;
+        width: 300px;
+        position: static;
+        
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5%;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
